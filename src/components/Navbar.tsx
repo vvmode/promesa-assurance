@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -30,10 +31,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <div className="flex flex-col">
-            <span className="font-heading text-xl font-bold text-gold tracking-wide">PROMESA</span>
-            <span className="text-[10px] tracking-[0.25em] text-primary-foreground/70 uppercase">Audit & Assurance LLP</span>
-          </div>
+          <img src={logo} alt="Promesa Audit & Assurance LLP" className="h-12 w-auto" />
         </Link>
 
         {/* Desktop nav */}

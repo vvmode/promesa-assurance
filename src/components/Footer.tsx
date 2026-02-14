@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,8 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <h3 className="font-heading text-2xl font-bold text-gold mb-3">PROMESA</h3>
-            <p className="text-xs tracking-[0.2em] uppercase text-primary-foreground/60 mb-4">Audit & Assurance LLP</p>
+            <img src={logo} alt="Promesa Audit & Assurance LLP" className="h-16 w-auto mb-4" />
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               A promise of integrity and assurance. Your trusted financial partner in the Maldives.
             </p>
