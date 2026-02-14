@@ -7,7 +7,6 @@ const navLinks = [
   { label: "Home", path: "/" },
   { label: "About Us", path: "/about" },
   { label: "Our Team", path: "/team" },
-  { label: "Local Councils", path: "/local-councils" },
   {
     label: "Services",
     path: "/services",
@@ -15,6 +14,7 @@ const navLinks = [
       { label: "Audit & Assurance", path: "/services/audit" },
       { label: "Financial Accounting & Reporting", path: "/services/accounting" },
       { label: "Tax Filing & Compliance", path: "/services/tax" },
+      { label: "Local Councils", path: "/local-councils" },
     ],
   },
   { label: "Contact Us", path: "/contact" },
@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Promesa Audit & Assurance LLP" className="h-16 w-auto" />
+          <img src={logo} alt="Promesa Audit & Assurance LLP" className="h-20 w-auto object-contain" style={{maxHeight: '100%'}} />
         </Link>
 
         {/* Desktop nav */}
