@@ -13,6 +13,7 @@ import ServiceAudit from "./pages/ServiceAudit";
 import ServiceAccounting from "./pages/ServiceAccounting";
 import ServiceTax from "./pages/ServiceTax";
 import Contact from "./pages/Contact";
+import LocalCouncils from "./pages/LocalCouncils";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/services/accounting" element={<ServiceAccounting />} />
             <Route path="/services/tax" element={<ServiceTax />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/local-councils" element={<LocalCouncils />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
