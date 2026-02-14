@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Home", path: "/" },
   { label: "About Us", path: "/about" },
   { label: "Our Team", path: "/team" },
+  { label: "Local Councils", path: "/local-councils" },
   {
     label: "Services",
     path: "/services",
