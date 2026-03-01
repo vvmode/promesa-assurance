@@ -80,7 +80,7 @@ const Index = () => {
       <section className="section-padding bg-background">
         <div className="container mx-auto">
           <SectionHeading subtitle="What We Do" title="Our Services" description="We provide expert accounting, tax, and financial solutions tailored to streamline operations, enhance compliance and drive business growth." />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {services.map((s) => (
               <Link
                 key={s.title}
