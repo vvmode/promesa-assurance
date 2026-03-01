@@ -9,7 +9,12 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({ title: "Message Sent", description: "Thank you for reaching out. We'll get back to you shortly." });
+    const subject = encodeURIComponent(form.subject || "Contact Form Inquiry");
+    const body = encodeURIComponent(
+      `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone || "N/A"}\nCompany: ${form.company || "N/A"}\n\nMessage:\n${form.message}`
+    );
+    window.location.href = `mailto:info@promesa.mv?subject=${subject}&body=${body}`;
+    toast({ title: "Opening Email Client", description: "Your default email app will open with the message details." });
     setForm({ name: "", email: "", phone: "", company: "", subject: "", message: "" });
   };
 
@@ -34,7 +39,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground text-sm mb-1">Office Address</h4>
-                    <p className="text-muted-foreground text-sm">Malé, Maldives</p>
+                    <p className="text-muted-foreground text-sm">Ma. Eynaaz, K. Male'</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -43,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground text-sm mb-1">Phone</h4>
-                    <p className="text-muted-foreground text-sm">+960 000 0000</p>
+                    <a href="tel:+9607798858" className="text-muted-foreground text-sm hover:text-gold transition-colors">+960 7798858</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -52,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground text-sm mb-1">Email</h4>
-                    <p className="text-muted-foreground text-sm">info@promesa.mv</p>
+                    <a href="mailto:info@promesa.mv" className="text-muted-foreground text-sm hover:text-gold transition-colors">info@promesa.mv</a>
                   </div>
                 </div>
               </div>
