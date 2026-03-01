@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Shield, FileText, Calculator, CheckCircle, ArrowRight } from "lucide-react";
+import { Shield, FileText, Calculator, CheckCircle, ArrowRight, Landmark } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import SectionHeading from "@/components/SectionHeading";
 
@@ -21,6 +21,12 @@ const services = [
     title: "Tax Filing & Compliance Support",
     desc: "Our expert tax practitioners provide comprehensive services to ensure compliance with Maldivian tax laws, maximize available incentives, and enhance your organization's tax efficiency.",
     path: "/services/tax",
+  },
+  {
+    icon: Landmark,
+    title: "Internal Audit Services for Local Councils",
+    desc: "We provide risk-based audits, financial reviews, procurement audits, and asset management for Maldivian local councils, ensuring alignment with LGA expectations.",
+    path: "/local-councils",
   },
 ];
 
@@ -74,7 +80,7 @@ const Index = () => {
       <section className="section-padding bg-background">
         <div className="container mx-auto">
           <SectionHeading subtitle="What We Do" title="Our Services" description="We provide expert accounting, tax, and financial solutions tailored to streamline operations, enhance compliance and drive business growth." />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((s) => (
               <Link
                 key={s.title}
