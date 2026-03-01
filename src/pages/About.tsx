@@ -3,9 +3,9 @@ import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 
 const values = [
-  { icon: Heart, title: "Integrity", desc: "We uphold high ethical standards and strict confidentiality in every engagement." },
-  { icon: Lightbulb, title: "Clarity", desc: "We believe in clear communication and providing support that is responsive and easy to understand." },
-  { icon: MapPin, title: "Local Expertise", desc: "We take pride in our deep understanding of the Maldivian regulatory and MIRA landscape." },
+  { icon: Heart, title: "Integrity", desc: "We uphold highest ethical standards and maintain strict confidentiality in every engagement." },
+  { icon: Lightbulb, title: "Clarity", desc: "We communicate clearly and provide guidance that is practical, responsive, and easy to understand." },
+  { icon: MapPin, title: "Local Expertise", desc: "We take pride in our deep understanding of the Maldivian regulatory environment and MIRA requirements." },
   { icon: Users, title: "Client Success", desc: "We treat your business goals as our own—your success is our priority." },
 ];
 
@@ -18,7 +18,7 @@ const About = () => {
       <section className="section-padding bg-background">
         <div className="container mx-auto max-w-4xl">
           <p className="text-lg text-muted-foreground leading-relaxed text-center">
-            Promesa Audit & Assurance LLP was founded on the principle of <strong className="text-foreground">Promesa</strong>—a promise of integrity and assurance. Promesa is a team of qualified professionals providing expert accounting, tax, audit and financial consulting services. We deliver personalized solutions to help businesses and individuals streamline operations, optimize performance, and achieve their financial goals.
+            Promesa Audit & Assurance LLP was founded on the principle of <strong className="text-foreground">Promesa</strong>—a promise of integrity and assurance. We are a team of qualified professionals providing expert accounting, tax, audit and financial consulting services to businesses and individuals across the Maldives. We deliver personalized solutions to help businesses and individuals streamline operations, optimize performance, and achieve their financial goals.
           </p>
         </div>
       </section>
@@ -42,7 +42,7 @@ const About = () => {
               </div>
               <h3 className="font-heading text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To empower Maldivian businesses through rigorous Audit and Assurance, expert Tax Compliance, and precise Financial Reporting. We fulfil the Promesa—our promise of integrity by delivering the ethical assurance and precise insights necessary for our clients' sustainable success.
+                We empower businesses with rigorous Audit, precise Financial Reporting, and expert Tax Compliance, delivering ethical assurance and actionable insights for sustainable success.
               </p>
             </div>
           </div>

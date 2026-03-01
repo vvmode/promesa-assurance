@@ -6,19 +6,19 @@ const services = [
   {
     icon: Shield,
     title: "Audit & Assurance",
-    desc: "From developing strategic internal audit plans to managing the complete outsourcing of the internal audit function.",
+    desc: "Our Audit and Assurance services are designed to strengthen governance, improve controls, and manage risk effectively.",
     path: "/services/audit",
   },
   {
     icon: Calculator,
     title: "Financial Accounting & Reporting Services",
-    desc: "Accounting System Planning, Implementation, and Consulting to streamline your processes and optimize financial operations.",
+    desc: "A reliable and strong accounting system is the foundation of every successful business. We offer Accounting System Planning, Implementation, and Consulting to streamline your processes, boost accuracy, and optimize your financial operations.",
     path: "/services/accounting",
   },
   {
     icon: FileText,
     title: "Tax Filing & Compliance Support",
-    desc: "Comprehensive services to ensure compliance, maximize available incentives, and enhance your organization's tax efficiency.",
+    desc: "Our expert tax practitioners provide comprehensive services to ensure compliance with Maldivian tax laws, maximize available incentives, and enhance your organization's tax efficiency.",
     path: "/services/tax",
   },
 ];
@@ -26,7 +26,7 @@ const services = [
 const Services = () => {
   return (
     <div>
-      <PageHero title="Our Services" subtitle="We deliver expert accounting, tax, and financial solutions tailored to your needs—streamlining operations and driving your business success." />
+      <PageHero title="Our Services" subtitle="We provide expert accounting, tax, and financial solutions tailored to streamline operations, enhance compliance and drive business growth." />
 
       <section className="section-padding bg-background">
         <div className="container mx-auto max-w-4xl">

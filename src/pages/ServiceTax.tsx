@@ -20,7 +20,7 @@ const ServiceTax = () => {
       <section className="section-padding bg-background">
         <div className="container mx-auto max-w-4xl">
           <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-            Our expert tax practitioners provide comprehensive services to ensure compliance, maximize available incentives, and enhance your organization's tax efficiency.
+            Our expert tax practitioners provide comprehensive services to ensure compliance with Maldivian tax laws, maximize available incentives, and enhance your organization's tax efficiency.
           </p>
           <div className="bg-card border rounded-lg p-8">
             <h3 className="font-heading text-2xl font-bold text-foreground mb-6">What We Provide</h3>

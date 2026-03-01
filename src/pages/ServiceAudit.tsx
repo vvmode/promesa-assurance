@@ -11,26 +11,32 @@ const items = [
   },
   {
     title: "Risk Identification and Mitigation",
-    desc: "We support you in identifying and prioritizing risks that could affect your business operations. Our specialists assist in developing effective risk mitigation strategies and in designing and implementing strong internal controls.",
+    desc: "We support you in identifying and prioritizing risks that could affect your business operations. Our specialists assist in developing effective risk mitigation strategies and in designing and implementing strong internal controls to minimize both the likelihood and impact of identified risks.",
   },
   {
     title: "Compliance Audits",
-    desc: "We carry out audits to confirm compliance with applicable laws, regulations, and industry standards. Our specialists conduct in-depth compliance reviews and assist in implementing effective corrective actions.",
+    desc: "We carry out audits to confirm compliance with applicable laws, regulations, and industry standards. Our specialists conduct in-depth compliance reviews, assisting you in identifying areas of non-compliance and implementing effective corrective actions.",
   },
   {
     title: "Internal Audit Outsourcing",
-    desc: "For organizations seeking continuous internal audit support, we offer outsourced internal audit solutions. Our professionals integrate seamlessly with your organization, conducting periodic audits and providing independent evaluations.",
+    desc: "For organizations seeking continuous internal audit support, we offer outsourced internal audit solutions. Our professionals integrate seamlessly with your organization, conducting periodic audits, providing independent evaluations, and assisting in meeting regulatory and compliance obligations.",
   },
 ];
 
 const ServiceAudit = () => {
   return (
     <div>
-      <PageHero title="Audit & Assurance" subtitle="Comprehensive audit services anchored in integrity" />
+      <PageHero title="Audit & Assurance" subtitle="Strengthening governance, improving controls, and managing risk effectively" />
       <section className="section-padding bg-background">
         <div className="container mx-auto max-w-4xl">
-          <p className="text-lg text-muted-foreground leading-relaxed mb-12">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+            Our Audit and Assurance services are designed to strengthen governance, improve controls, and manage risk effectively.
+          </p>
+          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
             Our internal audit team delivers a full spectrum of services, from developing strategic internal audit plans and restructuring existing departments to providing specialized expertise or managing the complete outsourcing of the internal audit function.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-12">
+            We provide high quality audit services for businesses, local councils and other government institutions that require audit for statutory or regulatory reasons associated with the filing of their annual and periodic financial information, or improving governance and service delivery.
           </p>
           <SectionHeading subtitle="What We Offer" title="Our Audit Services" />
           <div className="flex flex-col gap-6">

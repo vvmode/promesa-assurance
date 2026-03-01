@@ -39,7 +39,7 @@ const ServiceAccounting = () => {
       <section className="section-padding bg-background">
         <div className="container mx-auto max-w-4xl">
           <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-            A reliable accounting system is key to business success. We offer Accounting System Planning, Implementation, and Consulting to streamline your processes, boost accuracy, and optimize your financial operations.
+            A reliable and strong accounting system is the foundation of every successful business. We offer Accounting System Planning, Implementation, and Consulting to streamline your processes, boost accuracy, and optimize your financial operations.
           </p>
           <div className="flex flex-col gap-10">
             {categories.map((cat) => (
