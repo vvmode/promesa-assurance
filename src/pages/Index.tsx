@@ -5,6 +5,12 @@ import SectionHeading from "@/components/SectionHeading";
 
 const services = [
   {
+    icon: Shield,
+    title: "Audit & Assurance",
+    desc: "Our Audit and Assurance services are designed to strengthen governance, improve controls, and manage risk effectively.",
+    path: "/services/audit",
+  },
+  {
     icon: Calculator,
     title: "Financial Accounting & Reporting Services",
     desc: "We offer Accounting System Planning, Implementation, and Consulting to streamline your processes, boost accuracy, and optimize your financial operations.",
@@ -13,20 +19,14 @@ const services = [
   {
     icon: FileText,
     title: "Tax Filing & Compliance Support",
-    desc: "Comprehensive services to ensure compliance, maximize available incentives, and enhance your organization's tax efficiency.",
+    desc: "Our expert tax practitioners provide comprehensive services to ensure compliance with Maldivian tax laws, maximize available incentives, and enhance your organization's tax efficiency.",
     path: "/services/tax",
-  },
-  {
-    icon: Shield,
-    title: "Audit & Assurance",
-    desc: "A comprehensive range of services including audit strategy development, control framework evaluation, specialized resources, and fully outsourced audit functions.",
-    path: "/services/audit",
   },
 ];
 
 const reasons = [
-  "Strong understanding of Maldivian accounting and tax compliance requirements",
-  "Integrated accounting, tax filing, and regulatory support",
+  "Strong understanding of Maldivian accounting, tax, and compliance requirements",
+  "Integrated audit, accounting, tax filing, and regulatory support under one roof",
   "Clear communication and dependable service",
   "High ethical standards and strict confidentiality",
 ];
@@ -73,7 +73,7 @@ const Index = () => {
       {/* Services */}
       <section className="section-padding bg-background">
         <div className="container mx-auto">
-          <SectionHeading subtitle="What We Do" title="Our Services" description="We deliver expert accounting, tax, and financial solutions tailored to your needs—streamlining operations and driving your business success." />
+          <SectionHeading subtitle="What We Do" title="Our Services" description="We provide expert accounting, tax, and financial solutions tailored to streamline operations, enhance compliance and drive business growth." />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((s) => (
               <Link
@@ -107,6 +107,9 @@ const Index = () => {
               </div>
             ))}
           </div>
+          <p className="text-primary-foreground/60 text-sm text-center mt-8 max-w-2xl mx-auto">
+            Our services are competitively priced and designed to grow with your business, providing dependable support without unnecessary complexity.
+          </p>
         </div>
       </section>
 
