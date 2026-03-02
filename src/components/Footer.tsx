@@ -39,6 +39,7 @@ const Footer = () => {
               <Link to="/services/audit" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Audit & Assurance</Link>
               <Link to="/services/accounting" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Financial Accounting</Link>
               <Link to="/services/tax" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Tax Filing & Compliance</Link>
+              <Link to="/local-councils" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Internal Audit for Local Councils</Link>
             </div>
           </div>
 
