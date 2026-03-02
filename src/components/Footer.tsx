@@ -22,7 +22,6 @@ const Footer = () => {
               {[
                 { label: "Home", path: "/" },
                 { label: "About Us", path: "/about" },
-                { label: "Our Team", path: "/team" },
                 { label: "Services", path: "/services" },
                 { label: "Contact Us", path: "/contact" },
               ].map((link) => (
