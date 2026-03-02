@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Shield, Calculator, FileText, ArrowRight } from "lucide-react";
+import { Shield, Calculator, FileText, Landmark, ArrowRight } from "lucide-react";
 import PageHero from "@/components/PageHero";
 
 const services = [
@@ -20,6 +20,12 @@ const services = [
     title: "Tax Filing & Compliance Support",
     desc: "Our expert tax practitioners provide comprehensive services to ensure compliance with Maldivian tax laws, maximize available incentives, and enhance your organization's tax efficiency.",
     path: "/services/tax",
+  },
+  {
+    icon: Landmark,
+    title: "Internal Audit Services for Local Councils",
+    desc: "We provide specialized internal audit services aligned with the Local Government Authority (LGA) guidelines, helping local councils strengthen governance, accountability, and financial management.",
+    path: "/local-councils",
   },
 ];
 
