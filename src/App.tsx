@@ -29,18 +29,20 @@ const App = () => (
         <ScrollToTop />
         <Navbar />
         <main className="min-h-screen">
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/about" element={<About />} />
-            
-            <Route path="/services" element={<Services />} />
-            <Route path="/services/audit" element={<ServiceAudit />} />
-            <Route path="/services/accounting" element={<ServiceAccounting />} />
-            <Route path="/services/tax" element={<ServiceTax />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/local-councils" element={<LocalCouncils />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <PageTransition>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/about" element={<About />} />
+              
+              <Route path="/services" element={<Services />} />
+              <Route path="/services/audit" element={<ServiceAudit />} />
+              <Route path="/services/accounting" element={<ServiceAccounting />} />
+              <Route path="/services/tax" element={<ServiceTax />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/local-councils" element={<LocalCouncils />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </PageTransition>
         </main>
         <Footer />
       </BrowserRouter>
