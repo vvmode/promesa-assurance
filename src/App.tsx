@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
+import PageTransition from "@/components/PageTransition";
 import Index from "./pages/Index";
 import About from "./pages/About";
 
@@ -28,18 +29,20 @@ const App = () => (
         <ScrollToTop />
         <Navbar />
         <main className="min-h-screen">
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/about" element={<About />} />
-            
-            <Route path="/services" element={<Services />} />
-            <Route path="/services/audit" element={<ServiceAudit />} />
-            <Route path="/services/accounting" element={<ServiceAccounting />} />
-            <Route path="/services/tax" element={<ServiceTax />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/local-councils" element={<LocalCouncils />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <PageTransition>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/about" element={<About />} />
+              
+              <Route path="/services" element={<Services />} />
+              <Route path="/services/audit" element={<ServiceAudit />} />
+              <Route path="/services/accounting" element={<ServiceAccounting />} />
+              <Route path="/services/tax" element={<ServiceTax />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/local-councils" element={<LocalCouncils />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </PageTransition>
         </main>
         <Footer />
       </BrowserRouter>
