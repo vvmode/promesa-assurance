@@ -42,7 +42,7 @@ const About = () => {
               </div>
               <h3 className="font-heading text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed">
-                We empower businesses with rigorous Audit, precise Financial Reporting, and expert Tax Compliance, delivering ethical assurance and actionable insights for sustainable success.
+                We empower businesses with precise Financial Reporting, and expert Tax Compliance, delivering ethical assurance and actionable insights for sustainable success.
               </p>
             </div>
           </div>

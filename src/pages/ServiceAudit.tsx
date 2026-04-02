@@ -32,7 +32,7 @@ const ServiceAudit = () => {
             Our internal audit team delivers a full spectrum of services, from developing strategic internal audit plans and restructuring existing departments to providing specialized expertise or managing the complete outsourcing of the internal audit function.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-12">
-            We provide high quality audit services for businesses, local councils and other government institutions that require audit for statutory or regulatory reasons associated with the filing of their annual and periodic financial information, or improving governance and service delivery.
+            We provide high quality audit consultancy for businesses, local councils and other government institutions for improving governance and service delivery which are not limited to the following.
           </p>
           <SectionHeading subtitle="What We Offer" title="Our Audit Services" />
           <div className="flex flex-col gap-6">
