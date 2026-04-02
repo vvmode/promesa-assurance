@@ -1,28 +1,18 @@
 import { Link } from "react-router-dom";
-import { Shield, DollarSign, ShoppingCart, Package, Target, Users, Scale, Lightbulb, ShieldCheck, TrendingDown, Landmark, PiggyBank, ArrowRight } from "lucide-react";
+import { DollarSign, Package, Users, Landmark, Scale, Lightbulb, ShieldCheck, TrendingDown, Shield, PiggyBank, ArrowRight } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 
 const offerings = [
   {
-    icon: Target,
-    title: "Risk-Based Audits",
-    desc: "Our risk-based audits identify potential vulnerabilities within council operations, ensuring that resources are effectively allocated and risks are managed in alignment with organizational objectives.",
-  },
-  {
     icon: DollarSign,
     title: "Financial Reviews",
-    desc: "We conduct financial reviews to assess the accuracy and reliability of financial statements, providing councils with insights to enhance financial integrity and accountability in their operations.",
-  },
-  {
-    icon: ShoppingCart,
-    title: "Procurement Audits",
-    desc: "Our procurement audits evaluate the efficiency and effectiveness of purchasing processes, ensuring compliance with regulations and promoting transparency in the acquisition of goods and services.",
+    desc: "We conduct financial reviews to assess the accuracy and reliability of financial information and records, providing councils with insights that enhance financial integrity, accountability, and transparency.",
   },
   {
     icon: Package,
-    title: "Asset Management",
-    desc: "We offer comprehensive asset management assessments to optimize the utilization and safeguarding of council assets, contributing to improved operational performance and long-term sustainability.",
+    title: "Asset Management Reviews",
+    desc: "We provide comprehensive asset management assessments to evaluate the utilization, safeguarding, and control of council assets, contributing to improved operational performance and long-term sustainability.",
   },
 ];
 
@@ -75,7 +65,6 @@ const values = [
 const LocalCouncils = () => {
   return (
     <div>
-      {/* Hero */}
       <PageHero
         title="Internal Audit Services for Local Councils"
         subtitle="A Promise of Integrity and Assurance"
@@ -95,7 +84,7 @@ const LocalCouncils = () => {
       <section className="section-padding bg-muted">
         <div className="container mx-auto">
           <SectionHeading subtitle="What We Offer" title="Our Services for Councils" />
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {offerings.map((item) => (
               <div key={item.title} className="bg-card border rounded-lg p-8 hover:shadow-lg hover:border-gold/30 transition-all duration-300">
                 <div className="w-14 h-14 rounded-lg bg-primary/5 flex items-center justify-center mb-6">
