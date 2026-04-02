@@ -18,7 +18,7 @@ const About = () => {
       <section className="section-padding bg-background">
         <div className="container mx-auto max-w-4xl">
           <p className="text-lg text-muted-foreground leading-relaxed text-center">
-            Promesa Audit & Assurance LLP was founded on the principle of <strong className="text-foreground">Promesa</strong>—a promise of integrity and assurance. We are a team of qualified professionals providing expert accounting, tax, audit and financial consulting services to businesses and individuals across the Maldives. We deliver personalized solutions to help businesses and individuals streamline operations, optimize performance, and achieve their financial goals.
+            Promesa Audit & Assurance LLP was founded on the principle of <strong className="text-foreground">Promesa</strong>—a promise of integrity and assurance. We are a team of qualified professionals providing expert accounting, tax and financial consulting services to businesses and individuals across the Maldives. We deliver personalized solutions to help businesses and individuals streamline operations, optimize performance, and achieve their financial goals.
           </p>
         </div>
       </section>
@@ -33,7 +33,7 @@ const About = () => {
               </div>
               <h3 className="font-heading text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To be the Maldives' premier partner for Audit, Tax, and Financial Reporting, where every service is anchored in our lifelong 'Promesa' of absolute integrity and trust.
+                To be the Maldives' premier partner for Tax, and Financial Reporting, where every service is anchored in our lifelong 'Promesa' of absolute integrity and trust.
               </p>
             </div>
             <div className="bg-card rounded-lg p-8 border">
@@ -42,7 +42,7 @@ const About = () => {
               </div>
               <h3 className="font-heading text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed">
-                We empower businesses with rigorous Audit, precise Financial Reporting, and expert Tax Compliance, delivering ethical assurance and actionable insights for sustainable success.
+                We empower businesses with precise Financial Reporting, and expert Tax Compliance, delivering ethical assurance and actionable insights for sustainable success.
               </p>
             </div>
           </div>

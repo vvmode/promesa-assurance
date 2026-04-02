@@ -25,7 +25,7 @@ const services = [
   {
     icon: Landmark,
     title: "Internal Audit Services for Local Councils",
-    desc: "We provide risk-based audits, financial reviews, procurement audits, and asset management for Maldivian local councils, ensuring alignment with LGA expectations.",
+    desc: "We conduct financial reviews and asset management assessments for Maldivian local councils, enhancing governance, accountability, and transparency.",
     path: "/local-councils",
   },
 ];

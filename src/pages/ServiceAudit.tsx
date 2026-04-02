@@ -15,11 +15,7 @@ const items = [
   },
   {
     title: "Compliance Audits",
-    desc: "We carry out audits to confirm compliance with applicable laws, regulations, and industry standards. Our specialists conduct in-depth compliance reviews, assisting you in identifying areas of non-compliance and implementing effective corrective actions.",
-  },
-  {
-    title: "Internal Audit Outsourcing",
-    desc: "For organizations seeking continuous internal audit support, we offer outsourced internal audit solutions. Our professionals integrate seamlessly with your organization, conducting periodic audits, providing independent evaluations, and assisting in meeting regulatory and compliance obligations.",
+    desc: "We facilitate to carry out audits to confirm compliance with applicable laws, regulations, and industry standards. Our specialists helps to conduct in-depth compliance reviews, assisting you in identifying areas of non-compliance and implementing effective corrective actions.",
   },
 ];
 
@@ -36,7 +32,7 @@ const ServiceAudit = () => {
             Our internal audit team delivers a full spectrum of services, from developing strategic internal audit plans and restructuring existing departments to providing specialized expertise or managing the complete outsourcing of the internal audit function.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-12">
-            We provide high quality audit services for businesses, local councils and other government institutions that require audit for statutory or regulatory reasons associated with the filing of their annual and periodic financial information, or improving governance and service delivery.
+            We provide high quality audit consultancy for businesses, local councils and other government institutions for improving governance and service delivery which are not limited to the following.
           </p>
           <SectionHeading subtitle="What We Offer" title="Our Audit Services" />
           <div className="flex flex-col gap-6">
