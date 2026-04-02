@@ -18,7 +18,7 @@ const About = () => {
       <section className="section-padding bg-background">
         <div className="container mx-auto max-w-4xl">
           <p className="text-lg text-muted-foreground leading-relaxed text-center">
-            Promesa Audit & Assurance LLP was founded on the principle of <strong className="text-foreground">Promesa</strong>—a promise of integrity and assurance. We are a team of qualified professionals providing expert accounting, tax, audit and financial consulting services to businesses and individuals across the Maldives. We deliver personalized solutions to help businesses and individuals streamline operations, optimize performance, and achieve their financial goals.
+            Promesa Audit & Assurance LLP was founded on the principle of <strong className="text-foreground">Promesa</strong>—a promise of integrity and assurance. We are a team of qualified professionals providing expert accounting, tax and financial consulting services to businesses and individuals across the Maldives. We deliver personalized solutions to help businesses and individuals streamline operations, optimize performance, and achieve their financial goals.
           </p>
         </div>
       </section>
