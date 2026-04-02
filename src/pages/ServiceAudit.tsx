@@ -15,11 +15,7 @@ const items = [
   },
   {
     title: "Compliance Audits",
-    desc: "We carry out audits to confirm compliance with applicable laws, regulations, and industry standards. Our specialists conduct in-depth compliance reviews, assisting you in identifying areas of non-compliance and implementing effective corrective actions.",
-  },
-  {
-    title: "Internal Audit Outsourcing",
-    desc: "For organizations seeking continuous internal audit support, we offer outsourced internal audit solutions. Our professionals integrate seamlessly with your organization, conducting periodic audits, providing independent evaluations, and assisting in meeting regulatory and compliance obligations.",
+    desc: "We facilitate to carry out audits to confirm compliance with applicable laws, regulations, and industry standards. Our specialists helps to conduct in-depth compliance reviews, assisting you in identifying areas of non-compliance and implementing effective corrective actions.",
   },
 ];
 
