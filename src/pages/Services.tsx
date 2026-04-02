@@ -23,7 +23,7 @@ const services = [
   },
   {
     icon: Landmark,
-    title: "Internal Audit Services for Local Councils",
+    title: "Services for Local Councils",
     desc: "We provide specialized internal audit services aligned with the Local Government Authority (LGA) guidelines, helping local councils strengthen governance, accountability, and financial management.",
     path: "/local-councils",
   },

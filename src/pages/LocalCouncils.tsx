@@ -66,7 +66,7 @@ const LocalCouncils = () => {
   return (
     <div>
       <PageHero
-        title="Internal Audit Services for Local Councils"
+        title="Services for Local Councils"
         subtitle="A Promise of Integrity and Assurance"
       />
 
