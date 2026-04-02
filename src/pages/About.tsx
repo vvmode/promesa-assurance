@@ -33,7 +33,7 @@ const About = () => {
               </div>
               <h3 className="font-heading text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To be the Maldives' premier partner for Audit, Tax, and Financial Reporting, where every service is anchored in our lifelong 'Promesa' of absolute integrity and trust.
+                To be the Maldives' premier partner for Tax, and Financial Reporting, where every service is anchored in our lifelong 'Promesa' of absolute integrity and trust.
               </p>
             </div>
             <div className="bg-card rounded-lg p-8 border">
