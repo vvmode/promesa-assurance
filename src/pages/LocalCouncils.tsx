@@ -39,6 +39,11 @@ const LocalCouncils = () => {
               </div>
             ))}
           </div>
+          <div className="mt-12 text-center">
+            <Link to="/contact" className="inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-accent-foreground font-semibold rounded-md hover:bg-gold-dark transition-colors">
+              Discuss Your Needs <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
       </section>
 
