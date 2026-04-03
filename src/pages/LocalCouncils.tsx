@@ -42,23 +42,6 @@ const LocalCouncils = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="section-padding bg-background">
-        <div className="container mx-auto text-center">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">Partner With Promesa</h2>
-          <div className="w-16 h-0.5 bg-gold-line mx-auto mb-6" />
-          <p className="text-muted-foreground max-w-xl mx-auto mb-8">
-            Strengthen your council's governance, accountability, and compliance with our expert services.
-          </p>
-          <Link
-            to="/contact"
-            className="inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-accent-foreground font-semibold rounded-md hover:bg-gold-dark transition-colors"
-          >
-            Contact Us Today
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-      </section>
     </div>
   );
 };
