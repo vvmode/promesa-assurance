@@ -13,10 +13,6 @@ const items = [
     title: "Risk Identification and Mitigation",
     desc: "We support you in identifying and prioritizing risks that could affect your business operations. Our specialists assist in developing effective risk mitigation strategies and in designing and implementing strong internal controls to minimize both the likelihood and impact of identified risks.",
   },
-  {
-    title: "Compliance Audits",
-    desc: "We facilitate to carry out audits to confirm compliance with applicable laws, regulations, and industry standards. Our specialists helps to conduct in-depth compliance reviews, assisting you in identifying areas of non-compliance and implementing effective corrective actions.",
-  },
 ];
 
 const ServiceAudit = () => {
