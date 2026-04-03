@@ -70,15 +70,6 @@ const LocalCouncils = () => {
         subtitle="A Promise of Integrity and Assurance"
       />
 
-      {/* Who We Are */}
-      <section className="section-padding bg-background">
-        <div className="container mx-auto max-w-3xl text-center">
-          <SectionHeading subtitle="Who We Are" title="Dedicated to Local Governance" />
-          <p className="text-muted-foreground leading-relaxed">
-            Promesa is a Maldivian audit firm dedicated to enhancing governance, accountability, and compliance for local councils, ensuring they meet the highest standards of service delivery.
-          </p>
-        </div>
-      </section>
 
       {/* What We Offer */}
       <section className="section-padding bg-muted">
